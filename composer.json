@@ -2,24 +2,20 @@
   "name": "dyrw/test-php-sdk",
   "description": "DBY PHP SDK",
   "type": "library",
-  "keywords": [
-    "dby",
-    "duobaoyu"
-  ],
   "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
-      "DbyPhpSdk\\": "src/"
+      "Dyrw\\TestPhpSdk\\": "src/main/php/com/duobaoyu/dby/sdk/"
     }
   },
   "authors": [
     {
-      "name": "dby",
-      "email": "dby@123.com"
+      "name": "ShaoLinXiang",
+      "email": "909231923@qq.com"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6.0"
-  },
-  "minimum-stability": "dev"
+  }
 }
