@@ -9,8 +9,7 @@
   "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
-      "DbyPhpSdk\\": "src/main/php/com/duobaoyu/dby/sdk/",
-      "DbyPhpTests\\": "src/test/php/com/duobaoyu/dby/sdk/"
+      "DbyPhpSdk\\": "src/"
     }
   },
   "authors": [
