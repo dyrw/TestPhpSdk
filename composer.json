@@ -1,0 +1,21 @@
+{
+    "name": "dyrw/test-php-sdk",
+    "description": "DBY PHP SDK",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "DbyPhpSdk\\": "src/main/php/com/duobaoyu/dby/sdk/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShaoLinXiang",
+            "email": "909231923@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
