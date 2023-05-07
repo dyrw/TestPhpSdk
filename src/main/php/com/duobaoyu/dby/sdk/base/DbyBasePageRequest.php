@@ -1,19 +1,19 @@
 <?php
+
 namespace DbyPhpSdk\base;
 
 use DbyPhpSdk\constant\CommonConstants;
 
-abstract class DbyBaseRequest{
+abstract class DbyBasePageRequest extends Query{
     public static $POST = "POST";
     protected $bizParam = array();
-
 
     /**
      * 默认 POST 请求,如果 GET 请求重写这个方法
      *
      * @return
      */
-    public function requestMethodType() {
+    public function requestMethodType(){
         return self::$POST;
     }
 
@@ -32,7 +32,5 @@ abstract class DbyBaseRequest{
      * @return
      */
     abstract public function requestMethod();
-
-
 
 }

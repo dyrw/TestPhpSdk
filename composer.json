@@ -1,5 +1,5 @@
 {
-    "name": "dyrw/test-php-sdk",
+    "name": "dby/dby-php-sdk",
     "description": "DBY PHP SDK",
     "type": "library",
     "license": "Apache-2.0",
@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "SLX",
-            "email": "909231923@qq.com"
+            "name": "xiaoxiang",
+            "email": "xiaoxiang365@139.com"
         }
     ],
     "minimum-stability": "dev",

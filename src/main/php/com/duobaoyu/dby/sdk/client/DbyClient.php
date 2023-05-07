@@ -111,7 +111,6 @@ class DbyClient{
             $requestStr .= $key . '=' . $value . '&';
         }
         $requestStr .= CommonConstants::SIGN . '=' . $sign;
-        echo $requestStr;
         // 组装头文件信息
         $header = array(
             'Content-Type: application/json',
